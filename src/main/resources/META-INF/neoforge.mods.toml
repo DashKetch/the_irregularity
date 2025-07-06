@@ -4,11 +4,12 @@ license="Not specified"
 
 [[mods]]
 modId="the_irregularity"
-version="1.0.0"
+version="1.0.1"
 displayName="The Irregularity"
-displayURL="https://mcreator.net"
+displayURL="https://mcreator.net/the_irregularity"
+logoFile="logo.png"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="MCreator"
+authors="Dash_Ketch"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
@@ -32,6 +33,12 @@ authors="MCreator"
     side="BOTH"
 
 
+[[dependencies.the_irregularity]]
+    modId="playeranimator"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration

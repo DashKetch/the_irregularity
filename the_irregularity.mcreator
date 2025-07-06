@@ -369,16 +369,20 @@
   "workspaceSettings": {
     "modid": "the_irregularity",
     "modName": "The Irregularity",
-    "version": "1.0.0",
-    "author": "MCreator",
-    "websiteURL": "https://mcreator.net",
+    "version": "1.0.1",
+    "author": "Dash_Ketch",
+    "websiteURL": "https://mcreator.net/the_irregularity",
     "license": "Not specified",
     "serverSideOnly": false,
+    "modPicture": "island_irregular",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "playeranimator"
+    ],
     "currentGenerator": "neoforge-1.21.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.theirregularity"
   },
   "mcreatorVersion": 202500227613

@@ -9,5 +9,5 @@
     "west": "the_irregularity:block/block_textureone_face",
     "particle": "the_irregularity:block/block_textureone_face"
   },
-  "render_type": "cutout_mipped"
+  "render_type": "translucent"
 }
