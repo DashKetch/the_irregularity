@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "the_irregularity:irregular_island_with_loot",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 12,
+    "separation": 11,
+    "salt": 480653908
+  }
+}

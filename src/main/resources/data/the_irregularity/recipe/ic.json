@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "the_irregularity:crystal_upgrade_template",
+  "base": "the_irregularity:raw_irregular_crystal",
+  "addition": "minecraft:water_bucket",
+  "result": {
+    "id": "the_irregularity:irregular_crystal"
+  }
+}

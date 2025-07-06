@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_irregularity:block/block_textureone_face",
+    "up": "the_irregularity:block/block_textureone_face",
+    "north": "the_irregularity:block/block_textureone_face",
+    "east": "the_irregularity:block/block_textureone_face",
+    "south": "the_irregularity:block/block_textureone_face",
+    "west": "the_irregularity:block/block_textureone_face",
+    "particle": "the_irregularity:block/block_textureone_face"
+  },
+  "render_type": "cutout_mipped"
+}

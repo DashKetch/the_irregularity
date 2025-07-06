@@ -1,0 +1,11 @@
+{
+  "asset_id": "the_irregularity:dark_wizard_irregular_island_painting",
+  "height": 2,
+  "width": 3,
+  "title": {
+    "translate": "painting.the_irregularity.dark_wizard_irregular_island_painting.title"
+  },
+  "author": {
+    "translate": "painting.the_irregularity.dark_wizard_irregular_island_painting.author"
+  }
+}

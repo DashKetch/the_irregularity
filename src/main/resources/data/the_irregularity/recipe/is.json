@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "the_irregularity:crystal_upgrade_template",
+  "base": "minecraft:netherite_sword",
+  "addition": "the_irregularity:the_irregularity",
+  "result": {
+    "id": "the_irregularity:irregular_sword"
+  }
+}

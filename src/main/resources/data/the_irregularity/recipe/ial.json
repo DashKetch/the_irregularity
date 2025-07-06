@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "b b"
+  ],
+  "key": {
+    "a": "the_irregularity:irregular_crystal",
+    "b": "the_irregularity:the_irregularity"
+  },
+  "result": {
+    "id": "the_irregularity:irregular_armor_leggings",
+    "count": 1
+  }
+}

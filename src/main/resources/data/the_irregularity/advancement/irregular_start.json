@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_irregularity:raw_irregular_crystal"
+    },
+    "title": {
+      "translate": "advancements.irregular_start.title"
+    },
+    "description": {
+      "translate": "advancements.irregular_start.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "irregular_start_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_irregularity:raw_irregular_crystal"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:story/root"
+}

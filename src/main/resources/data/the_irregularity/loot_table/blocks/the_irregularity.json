@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "the_irregularity:blocks/the_irregularity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "the_irregularity:raw_irregular_crystal"
+        }
+      ]
+    }
+  ]
+}

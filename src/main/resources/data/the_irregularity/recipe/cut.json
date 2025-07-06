@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": "the_irregularity:raw_irregular_crystal",
+    "b": "the_irregularity:crystal_upgrade_template",
+    "c": "minecraft:purpur_block"
+  },
+  "result": {
+    "id": "the_irregularity:crystal_upgrade_template",
+    "count": 2
+  }
+}

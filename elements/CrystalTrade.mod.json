@@ -1,0 +1,33 @@
+{
+  "_fv": 79,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "WANDERING_TRADER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Blocks.DEEPSLATE_EMERALD_ORE"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Blocks.EMERALD_ORE"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:RawIrregularCrystals"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "mod_elements": [
+    {
+      "name": "Theirregularityblockttype",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_irregularity",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_irregularity/models/item/the_irregularity.json",
+          "src/main/resources/assets/the_irregularity/items/the_irregularity.json",
+          "src/main/resources/assets/the_irregularity/models/block/the_irregularity.json",
+          "src/main/java/net/mcreator/theirregularity/block/TheirregularityblockttypeBlock.java",
+          "src/main/resources/data/the_irregularity/loot_table/blocks/the_irregularity.json",
+          "src/main/resources/assets/the_irregularity/blockstates/the_irregularity.json"
+        ]
+      }
+    },
+    {
+      "name": "Irregularities",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irregularities",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "RawIrregularCrystals",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_irregular_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_irregularity/items/raw_irregular_crystal.json",
+          "src/main/java/net/mcreator/theirregularity/item/RawIrregularCrystalsItem.java",
+          "src/main/resources/assets/the_irregularity/models/item/raw_irregular_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalTrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_trade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "IrregularCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irregular_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_irregularity/models/item/irregular_crystal.json",
+          "src/main/java/net/mcreator/theirregularity/item/IrregularCrystalItem.java",
+          "src/main/resources/assets/the_irregularity/items/irregular_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalUpgradeTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_upgrade_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_irregularity/models/item/crystal_upgrade_template.json",
+          "src/main/resources/assets/the_irregularity/items/crystal_upgrade_template.json",
+          "src/main/java/net/mcreator/theirregularity/item/CrystalUpgradeTemplateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CUT",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_irregularity/recipe/cut.json",
+          "src/main/resources/data/the_irregularity/advancement/recipes/cut.json"
+        ]
+      }
+    },
+    {
+      "name": "IC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_irregularity/advancement/recipes/ic.json",
+          "src/main/resources/data/the_irregularity/recipe/ic.json"
+        ]
+      }
+    },
+    {
+      "name": "Irregularity",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irregularity",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_irregularity/advancement/recipes/irregularity.json",
+          "src/main/resources/data/the_irregularity/recipe/irregularity.json"
+        ]
+      }
+    },
+    {
+      "name": "IrregularStart",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irregular_start",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_irregularity/advancement/irregular_start.json"
+        ]
+      }
+    },
+    {
+      "name": "IrregularSwordRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irregular_sword_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/theirregularity/procedures/IrregularSwordRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "IrregularSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irregular_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_irregularity/items/irregular_sword.json",
+          "src/main/java/net/mcreator/theirregularity/item/IrregularSwordItem.java",
+          "src/main/resources/assets/the_irregularity/models/item/irregular_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "IS",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_irregularity/recipe/is.json",
+          "src/main/resources/data/the_irregularity/advancement/recipes/is.json"
+        ]
+      }
+    },
+    {
+      "name": "IrregularArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irregular_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theirregularity/item/IrregularArmorItem.java",
+          "src/main/resources/assets/the_irregularity/equipment/irregular_armor.json",
+          "src/main/resources/assets/the_irregularity/models/item/irregular_armor_leggings.json",
+          "src/main/resources/assets/the_irregularity/items/irregular_armor_leggings.json",
+          "src/main/resources/assets/the_irregularity/items/irregular_armor_boots.json",
+          "src/main/resources/assets/the_irregularity/models/item/irregular_armor_boots.json",
+          "src/main/resources/assets/the_irregularity/items/irregular_armor_helmet.json",
+          "src/main/resources/assets/the_irregularity/items/irregular_armor_chestplate.json",
+          "src/main/resources/assets/the_irregularity/models/item/irregular_armor_helmet.json",
+          "src/main/resources/assets/the_irregularity/models/item/irregular_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "IrregularChestLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irregular_chest_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_irregularity/loot_table/chests/island_irregular_loot_table.json"
+        ]
+      }
+    },
+    {
+      "name": "IrregularIslandWithLoot",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irregular_island_with_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_irregularity/worldgen/structure/irregular_island_with_loot.json",
+          "src/main/resources/data/the_irregularity/worldgen/structure_set/irregular_island_with_loot.json",
+          "src/main/resources/data/the_irregularity/worldgen/template_pool/irregular_island_with_loot.json"
+        ]
+      }
+    },
+    {
+      "name": "IAH",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iah",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_irregularity/recipe/iah.json",
+          "src/main/resources/data/the_irregularity/advancement/recipes/iah.json"
+        ]
+      }
+    },
+    {
+      "name": "IAC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iac",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_irregularity/recipe/iac.json",
+          "src/main/resources/data/the_irregularity/advancement/recipes/iac.json"
+        ]
+      }
+    },
+    {
+      "name": "IAL",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ial",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_irregularity/advancement/recipes/ial.json",
+          "src/main/resources/data/the_irregularity/recipe/ial.json"
+        ]
+      }
+    },
+    {
+      "name": "IAB",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_irregularity/recipe/iab.json",
+          "src/main/resources/data/the_irregularity/advancement/recipes/iab.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkWizardIrregularIslandPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_wizard_irregular_island_painting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_irregularity/painting_variant/dark_wizard_irregular_island_painting.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Theirregularityblockttype"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Theirregularityblockttype"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:IrregularSword"
+    ],
+    "ITEMS:the_irregularity:irregular_sword_repair_items": [
+      "~CUSTOM:IrregularCrystal"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:IrregularArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:IrregularArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:IrregularArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:IrregularArmor.boots"
+    ],
+    "ITEMS:the_irregularity:irregular_armor_repair_items": [
+      "~CUSTOM:IrregularCrystal"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.the_irregularity.the_irregularity_block_type": "The Irregularity Block Type",
+      "item_group.the_irregularity.irregularities": "Irregularities",
+      "item.the_irregularity.irregular_crystal": "Irregular Crystal",
+      "item.the_irregularity.crystal_upgrade_template": "Crystal Upgrade Template",
+      "advancements.irregular_start.descr": "Obtain raw irregular crystals",
+      "advancements.irregular_start.title": "Irregular Start",
+      "item.the_irregularity.the_irregularity": "The Irregularity",
+      "item.the_irregularity.raw_irregular_crystal": "Raw Irregular Crystals",
+      "item.the_irregularity.irregular_sword": "Irregular Sword",
+      "item.the_irregularity.irregular_armor_chestplate": "Irregular Chestplate",
+      "item.the_irregularity.irregular_armor_helmet": "Irregular Helmet",
+      "item.the_irregularity.irregular_armor_leggings": "Irregular Leggings",
+      "item.the_irregularity.irregular_armor_boots": "Irregular Boots",
+      "painting.the_irregularity.dark_wizard_irregular_island_painting.title": "The Irregularity",
+      "painting.the_irregularity.dark_wizard_irregular_island_painting.author": "Dash_Ketch"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModTabs.java",
+      "src/main/java/net/mcreator/theirregularity/TheIrregularityMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
+      "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModTrades.java",
+      "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModBlocks.java",
+      "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_irregularity",
+    "modName": "The Irregularity",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "modElementsPackage": "net.mcreator.theirregularity"
+  },
+  "mcreatorVersion": 202500227613
+}

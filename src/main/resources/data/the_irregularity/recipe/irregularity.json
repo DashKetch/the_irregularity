@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "the_irregularity:irregular_crystal",
+    "b": "minecraft:sculk"
+  },
+  "result": {
+    "id": "the_irregularity:the_irregularity",
+    "count": 1
+  }
+}
