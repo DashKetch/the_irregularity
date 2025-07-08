@@ -8,6 +8,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
@@ -31,6 +32,7 @@ public class TheIrregularityModItems {
 	public static final DeferredItem<Item> IRREGULAR_ARMOR_CHESTPLATE = register("irregular_armor_chestplate", IrregularArmorItem.Chestplate::new);
 	public static final DeferredItem<Item> IRREGULAR_ARMOR_LEGGINGS = register("irregular_armor_leggings", IrregularArmorItem.Leggings::new);
 	public static final DeferredItem<Item> IRREGULAR_ARMOR_BOOTS = register("irregular_armor_boots", IrregularArmorItem.Boots::new);
+	public static final DeferredItem<Item> THE_IRREGULARITY_ENTITY_SPAWN_EGG = register("the_irregularity_entity_spawn_egg", properties -> new SpawnEggItem(TheIrregularityModEntities.THE_IRREGULARITY_ENTITY.get(), properties));
 
 	// Start of user code block custom items
 	// End of user code block custom items

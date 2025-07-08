@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Spawn Island Irregular (In Dev)",
+    "description": "Toggle whether or not you want to spawn island irregular, be warned that toggling off in survival means progression isn't possible.",
+    "category": "SPAWNING",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

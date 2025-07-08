@@ -297,6 +297,62 @@
           "src/main/resources/data/the_irregularity/painting_variant/dark_wizard_irregular_island_painting.json"
         ]
       }
+    },
+    {
+      "name": "SpawnIsland",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_island",
+      "metadata": {
+        "type": "logic",
+        "files": []
+      }
+    },
+    {
+      "name": "TheIrregularityEntityOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_irregularity_entity_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/theirregularity/procedures/TheIrregularityEntityOnInitialEntitySpawnProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TheIrregularityEntity",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_irregularity_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theirregularity/entity/TheIrregularityEntityEntity.java",
+          "src/main/resources/assets/the_irregularity/items/the_irregularity_entity_spawn_egg.json",
+          "src/main/resources/data/the_irregularity/neoforge/biome_modifier/the_irregularity_entity_biome_modifier.json",
+          "src/main/java/net/mcreator/theirregularity/client/renderer/TheIrregularityEntityRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -347,7 +403,11 @@
       "item.the_irregularity.irregular_armor_leggings": "Irregular Leggings",
       "item.the_irregularity.irregular_armor_boots": "Irregular Boots",
       "painting.the_irregularity.dark_wizard_irregular_island_painting.title": "The Irregularity",
-      "painting.the_irregularity.dark_wizard_irregular_island_painting.author": "Dash_Ketch"
+      "painting.the_irregularity.dark_wizard_irregular_island_painting.author": "Dash_Ketch",
+      "gamerule.spawnIsland.description": "Toggle whether or not you want to spawn island irregular, be warned that toggling off in survival means progression isn\u0027t possible.",
+      "gamerule.spawnIsland": "Spawn Island Irregular (In Dev)",
+      "item.the_irregularity.the_irregularity_entity_spawn_egg": "The Irregularity Spawn Egg",
+      "entity.the_irregularity.the_irregularity_entity": "The Irregularity"
     }
   },
   "metadata": {
@@ -355,11 +415,15 @@
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModTabs.java",
       "src/main/java/net/mcreator/theirregularity/TheIrregularityMod.java",
+      "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModModels.java",
       "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModGameRules.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModTrades.java",
       "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModBlocks.java",
-      "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModItems.java"
+      "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModItems.java",
+      "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModEntityRenderers.java",
+      "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModEntities.java"
     ]
   },
   "foldersRoot": {

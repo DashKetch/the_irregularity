@@ -43,11 +43,4 @@ tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
 
-dependencies {
-    // Compile against only the API artifact
-    //compileOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}:api"
-    // Use the full Curios API jar at runtime
-    //runtimeOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}"
-}
-
 apply from: 'mcreator.gradle'

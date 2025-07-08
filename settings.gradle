@@ -3,11 +3,6 @@ pluginManagement {
         mavenLocal()
         gradlePluginPortal()
         maven { url = 'https://maven.neoforged.net/releases' }
-
-        maven {
-            name = "Illusive Soulworks maven"
-            url = "https://maven.theillusivec4.top/"
-        }
     }
 }
 
