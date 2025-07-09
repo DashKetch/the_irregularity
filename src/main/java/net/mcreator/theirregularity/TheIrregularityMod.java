@@ -20,7 +20,6 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.theirregularity.init.TheIrregularityModTabs;
 import net.mcreator.theirregularity.init.TheIrregularityModItems;
-import net.mcreator.theirregularity.init.TheIrregularityModEntities;
 import net.mcreator.theirregularity.init.TheIrregularityModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -44,7 +43,7 @@ public class TheIrregularityMod {
 		TheIrregularityModBlocks.REGISTRY.register(modEventBus);
 
 		TheIrregularityModItems.REGISTRY.register(modEventBus);
-		TheIrregularityModEntities.REGISTRY.register(modEventBus);
+
 		TheIrregularityModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init

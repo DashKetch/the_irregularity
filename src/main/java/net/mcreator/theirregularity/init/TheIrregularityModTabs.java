@@ -31,7 +31,6 @@ public class TheIrregularityModTabs {
 				tabData.accept(TheIrregularityModItems.IRREGULAR_ARMOR_CHESTPLATE.get());
 				tabData.accept(TheIrregularityModItems.IRREGULAR_ARMOR_LEGGINGS.get());
 				tabData.accept(TheIrregularityModItems.IRREGULAR_ARMOR_BOOTS.get());
-				tabData.accept(TheIrregularityModItems.THE_IRREGULARITY_ENTITY_SPAWN_EGG.get());
 			}).build());
 
 	@SubscribeEvent
@@ -49,8 +48,6 @@ public class TheIrregularityModTabs {
 			tabData.accept(TheIrregularityModItems.IRREGULAR_ARMOR_CHESTPLATE.get());
 			tabData.accept(TheIrregularityModItems.IRREGULAR_ARMOR_LEGGINGS.get());
 			tabData.accept(TheIrregularityModItems.IRREGULAR_ARMOR_BOOTS.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(TheIrregularityModItems.THE_IRREGULARITY_ENTITY_SPAWN_EGG.get());
 		}
 	}
 }

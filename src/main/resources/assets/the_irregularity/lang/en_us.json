@@ -15,7 +15,5 @@
   "painting.the_irregularity.dark_wizard_irregular_island_painting.title": "The Irregularity",
   "painting.the_irregularity.dark_wizard_irregular_island_painting.author": "Dash_Ketch",
   "gamerule.spawnIsland.description": "Toggle whether or not you want to spawn island irregular, be warned that toggling off in survival means progression isn\u0027t possible.",
-  "gamerule.spawnIsland": "Spawn Island Irregular (In Dev)",
-  "item.the_irregularity.the_irregularity_entity_spawn_egg": "The Irregularity Spawn Egg",
-  "entity.the_irregularity.the_irregularity_entity": "The Irregularity"
+  "gamerule.spawnIsland": "Spawn Island Irregular (In Dev)"
 }

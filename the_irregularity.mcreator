@@ -338,21 +338,6 @@
           "src/main/java/net/mcreator/theirregularity/procedures/TheIrregularityEntityOnInitialEntitySpawnProcedure.java"
         ]
       }
-    },
-    {
-      "name": "TheIrregularityEntity",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "the_irregularity_entity",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/theirregularity/entity/TheIrregularityEntityEntity.java",
-          "src/main/resources/assets/the_irregularity/items/the_irregularity_entity_spawn_egg.json",
-          "src/main/resources/data/the_irregularity/neoforge/biome_modifier/the_irregularity_entity_biome_modifier.json",
-          "src/main/java/net/mcreator/theirregularity/client/renderer/TheIrregularityEntityRenderer.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -405,9 +390,7 @@
       "painting.the_irregularity.dark_wizard_irregular_island_painting.title": "The Irregularity",
       "painting.the_irregularity.dark_wizard_irregular_island_painting.author": "Dash_Ketch",
       "gamerule.spawnIsland.description": "Toggle whether or not you want to spawn island irregular, be warned that toggling off in survival means progression isn\u0027t possible.",
-      "gamerule.spawnIsland": "Spawn Island Irregular (In Dev)",
-      "item.the_irregularity.the_irregularity_entity_spawn_egg": "The Irregularity Spawn Egg",
-      "entity.the_irregularity.the_irregularity_entity": "The Irregularity"
+      "gamerule.spawnIsland": "Spawn Island Irregular (In Dev)"
     }
   },
   "metadata": {
@@ -421,9 +404,7 @@
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModTrades.java",
       "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModBlocks.java",
-      "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModItems.java",
-      "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModEntityRenderers.java",
-      "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModEntities.java"
+      "src/main/java/net/mcreator/theirregularity/init/TheIrregularityModItems.java"
     ]
   },
   "foldersRoot": {
